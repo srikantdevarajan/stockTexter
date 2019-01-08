@@ -1,0 +1,2 @@
+# stockTexter
+python project that uses yahoo finance library to scrape and get stock information from the yahoo finance website. The ticker information is given by the user in a text file and the program reads the text file to know which tickers to find information from. Also, I used the Twilio API to text the user the date and time and the stock price of the given tickers. In order to schedule this at a certain time, I used the windows scheduler tasker to run this code every 15 seconds. 
